@@ -1,0 +1,223 @@
+body {
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+header {
+  background-color:#576E34;
+  flex-grow: 0;
+  display: flex;
+  justify-content: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+}
+
+main {
+  flex-grow: 2;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+footer {
+  background-color: #273314;
+  color: white;
+  flex-grow: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  background-color: #273314;
+  flex-grow: 0;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-img {
+  width: 100px;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: end;
+  margin: 0px;
+  flex-grow: 1;
+}
+
+.nav-item {
+  list-style: none;
+  margin-left: 3rem;
+  font-size: 2rem;
+}
+
+.nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+}
+
+.nav-link:hover {
+  color: #E8F0DA;
+}
+
+.changa-one-regular {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.changa-one-regular-italic {
+  font-family: "Changa One", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.bowlby-one-regular {
+  font-family: "Bowlby One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin: 0px;
+}
+
+h1 {
+  color: white;
+  font-size: 10rem;
+  line-height: 0.8;
+  margin-bottom: 3rem;
+}
+
+.container {
+  width: 80%;
+  align-self: center;
+}
+
+.product-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.section-header {
+  font-size: 5rem;
+  margin-bottom: 3rem;
+}
+
+.product-card {
+  padding: 2rem;
+  background-color: #273314;
+  color: white;
+  width: 25%;
+  border-radius: 15px;
+  margin-bottom: 3rem;
+}
+
+.product-img {
+  width: 100%;
+}
+
+.product-title {
+  font-size: 2.5rem;
+}
+
+.product-text {
+  font-size: 1.2rem;
+  margin-top: 0px;
+}
+
+.header-text {
+  max-width: 72ch;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.header-row {
+  display: flex;
+}
+
+.header-presentation {
+  flex-grow: 3;
+  margin-right: 5rem;
+  width: 60%;
+}
+.header-img-container {
+  flex-grow: 1;
+  width: 25%;
+}
+
+.header-img {
+  width: 100%;
+}
+
+button {
+  border-radius: 0px;
+  width: 100%;
+  border: none;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-size: 1.5rem;
+  color:#273314;
+  background-color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: white;
+}
+
+.social {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.social-icons {
+  display: flex;
+  flex-grow: 1;
+}
+
+.social-icon {
+  margin-left: 1rem;
+  width: 32px;
+  height: 32px;
+}
+
+.derechos {
+  display: flex;
+  align-items: center;
+}
+
+.copyleft {
+  width: 1rem;
+  height: auto;
+  margin-right: 0.5rem;
+}

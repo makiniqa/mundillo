@@ -221,3 +221,50 @@ button:hover {
   height: auto;
   margin-right: 0.5rem;
 }
+
+.reviews {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-card {
+  border-radius: 15px;
+  background-color: #273314;
+  color: white;
+  display: flex;
+  justify-content: between;
+  padding: 2rem;
+  margin-bottom: 5rem;
+}
+
+.review-img {
+  width: 10%;
+}
+
+.review-text {
+  background-color: white;
+  color:#273314;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 25px;
+  font-size: 3rem;
+  align-self: start;
+}
+
+.speech-bubble {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3rem;
+}
+
+.triangle {
+  width: 0; height: 0;
+  border-style: solid;
+  border-width: 50px 50px 0px 0px;
+  border-color: #fff transparent transparent transparent;
+  margin-top: -30px;
+}
+
+section {
+  margin-bottom: 10rem;
+}

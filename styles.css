@@ -170,14 +170,7 @@ h1 {
   margin-right: 5rem;
   width: 60%;
 }
-.header-img-container {
-  flex-grow: 1;
-  width: 25%;
-}
 
-.header-img {
-  width: 100%;
-}
 
 button {
   border-radius: 0px;
@@ -400,15 +393,7 @@ section {
     flex-direction: column;
   }
 
-  .separator-img-container {
-    display: flex;
-    justify-content: center;
-    margin-top: -13%;
-  }
 
-  .separator-img {
-    width: 25%;
-  }
 }
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
@@ -490,6 +475,48 @@ section {
   }
 
   .form {
+    width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 714px) {
+  .separator-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -13%;
+  }
+
+  .separator-img {
+    width: 25%;
+  }
+}
+
+/* Logo */
+
+@media screen and (min-width: 714px) and (max-width: 1300px) {
+  .separator-img {
+    width: 15%;
+  }
+
+  .separator-img-container {
+    display: flex;
+    justify-content: center;
+    margin-top: -8%;
+  }
+
+  .header-img-container {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 1300px) {
+  .header-img-container {
+    flex-grow: 1;
+    width: 25%;
+  }
+
+  .header-img {
     width: 100%;
   }
 }

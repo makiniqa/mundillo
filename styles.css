@@ -53,7 +53,6 @@ nav {
 
 .nav-list {
   display: flex;
-  justify-content: end;
   margin: 0px;
   flex-grow: 1;
 }
@@ -518,5 +517,9 @@ section {
 
   .header-img {
     width: 100%;
+  }
+
+  .nav-list {
+    justify-content: end;
   }
 }

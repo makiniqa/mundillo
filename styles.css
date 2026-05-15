@@ -268,3 +268,37 @@ button:hover {
 section {
   margin-bottom: 10rem;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.label {
+  font-size: 1.25rem;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.h-30px {
+  height: 30px;
+}
+
+.h-big {
+  height: 200px;
+}
+
+.button-border {
+  border: 3px dashed #273314;
+}
+
+.mt-3r {
+  margin-top: 3rem;
+}

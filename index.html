@@ -38,10 +38,10 @@
           <a href="#products" class="nav-link bowlby-one-regular">Productos</a>
         </li>
         <li class="nav-item">
-          <a href="#resenias" class="nav-link bowlby-one-regular">Reseñas</a>
+          <a href="#reviews" class="nav-link bowlby-one-regular">Reseñas</a>
         </li>
         <li class="nav-item">
-          <a href="#contacto" class="nav-link bowlby-one-regular">Contacto</a>
+          <a href="#contact" class="nav-link bowlby-one-regular">Contacto</a>
         </li>
       </ul>
     </nav>
@@ -241,12 +241,35 @@
           </div>
         </div>
       </section>
-      <section id="contacto">
+      <section id="contact">
         <h2 class="section-header bowlby-one-regular">Contacto</h2>
+        <form action="https://formspree.io/f/mnjwkgqn" method="POST">
+          <div class="form w-50">
+            <label class="field">
+              <p class="label montserrat-bold">Nombre completo:</p>
+              <input class="h-30px" type="string" name="fullname" />
+            </label>
+            <label class="field montserrat-bold">
+              <p class="label">Correo electrónico:</p>
+              <input class="h-30px" type="email" name="email" />
+            </label>
+            <label class="field montserrat-bold">
+              <p class="label">Escribí tu mensaje:</p>
+              <textarea class="h-big" name="message"></textarea>
+            </label>
+            <!-- your other form fields go here -->
+            <button
+              class="bowlby-one-regular button-border mt-3r"
+              type="submit"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
       </section>
     </main>
 
-    <footer class="montserrat-regular">
+    <footer class="montserrat-bold">
       <h2 class="derechos">
         <img class="copyleft" src="./assets/copyleft.png" alt="Copyleft" />
         <span>Mundillo Plantas</span>

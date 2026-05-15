@@ -139,10 +139,15 @@ h1 {
   width: 25%;
   border-radius: 15px;
   margin-bottom: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .product-img {
+  object-fit: cover;
   width: 100%;
+  aspect-ratio: 1/1;
 }
 
 .product-title {

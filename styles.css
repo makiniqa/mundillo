@@ -254,6 +254,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   margin-left: 3rem;
+  width: 75%;
 }
 
 .triangle {
@@ -378,6 +379,7 @@ section {
 
   .speech-bubble {
     margin-left: 0px;
+    width: 100%;
   }
 
   .review-text-p {
@@ -389,9 +391,6 @@ section {
     padding: 1.1rem;
   }
 
-  .triangle {
-    display: none;
-  }
 
   footer {
     flex-direction: column;
@@ -400,6 +399,17 @@ section {
 
 }
 
+
+@media screen and (max-width: 768px) {
+  .triangle {
+    display: none;
+  }
+
+  .review-card {
+    flex-direction: column;
+  }
+
+}
 @media screen and (min-width: 576px) and (max-width: 768px) {
   button {
     padding-top: 1rem;
@@ -424,14 +434,6 @@ section {
     margin-right: 2rem;
   }
 
-  .review-card {
-    flex-direction: row;
-  }
-
-  .triangle {
-    display: block;
-    margin-top: -25px;
-  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
@@ -450,7 +452,7 @@ section {
   }
 
   .speech-bubble {
-    flex-direction: row;
+    width: 70%;
   }
 
   .review-text {
@@ -476,6 +478,10 @@ section {
 
   .review-img {
     width: 25%;
+  }
+
+  .speech-bubble {
+    width: 75%;
   }
 
   .form {

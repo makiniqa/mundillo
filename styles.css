@@ -533,4 +533,8 @@ section {
   .nav-list {
     justify-content: end;
   }
+
+  .separator-img-container {
+    display: none;
+  }
 }
